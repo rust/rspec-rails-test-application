@@ -10,6 +10,8 @@ gem 'sqlite3-ruby', :require => 'sqlite3'
 group :development, :test do
   gem 'rspec', '>= 2.0.0.beta.20'
   gem 'rspec-rails', '>= 2.0.0.beta.20'
+  gem 'webrat'
+  gem 'autotest'
 end
 gem 'rails3-generators'
 
